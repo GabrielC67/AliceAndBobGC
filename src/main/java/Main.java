@@ -8,9 +8,9 @@ public class Main {
     public static void main(String[] args){
 
         // create a new object of class Main
-        Main myObj = new Main();
+        Main Object = new Main();
         // call the compute() method on that new object
-        myObj.compute();
+        Object.compute();
     }
 
     public void compute() {
@@ -27,6 +27,7 @@ public class Main {
         } else {
             System.out.println("You are neither Alice nor Bob.");
         }
+
 
         // Print greeting to screen if Alice or Bob are true
         
